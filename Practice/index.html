@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <header>
+    <h1>Animesh Singh</h1>
+    <nav>
+      links to <div id="about"></div> #projects #contact <div id="media"></div>
+      <!-- Example: <a href="#about">About</a> -->
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About Me</h2>
+      <!-- TODO: Add an image with alt, then a paragraph -->
+      <!-- <img src="me.jpg" alt="Portrait of ..."> -->
+      <!-- <p>...</p> -->
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <!-- TODO: Build a table: headers Skill | Experience -->
+      <!-- <table> <thead> <tr><th>Skill</th><th>Experience</th></tr></thead> <tbody>...</tbody> </table> -->
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <!-- TODO: Add at least two <article> with title, short text, and link -->
+      <!--
+      <article>
+        <h3>Project Title</h3>
+        <p>Short description...</p>
+        <a href="https://example.com" target="_blank" rel="noopener">View</a>
+      </article>
+      -->
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <!-- TODO: Simple form placeholder; full form in Task 2 -->
+      <form action="/contact" method="GET">
+        <label for="mini-email">Email</label>
+        <input id="mini-email" name="email" type="email" required />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section id="media" aria-labelledby="media-title">
+      <h2 id="media-title">Media</h2>
+      <!-- TODO: One local audio OR video with controls -->
+      <!-- <audio controls><source src="sample.mp3" type="audio/mpeg"></audio> -->
+      <!-- TODO: One YouTube iframe embed -->
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
+           title="YouTube video" frameborder="0"
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+           allowfullscreen></iframe> -->
+    </section>
+  </main>
+
+  <footer>
+    <!-- TODO: © Year Your Name -->
+  </footer>
+</body>
+</html>
+
